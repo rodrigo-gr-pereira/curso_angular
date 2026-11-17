@@ -1,10 +1,12 @@
 import { TestBed } from '@angular/core/testing';
+
 import { App } from './app';
+import { DataBinding } from './data-binding/data-binding';
 
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App],
+      imports: [App, DataBinding],
     }).compileComponents();
   });
 
