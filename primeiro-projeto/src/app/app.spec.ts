@@ -1,10 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { App } from './app';
+import { MeuPrimeiro } from './meu-primeiro/meu-primeiro';
+import { MeuPrimeiro2 } from './meu-primeiro2/meu-primeiro2';
+import { Cursos } from './cursos/cursos';
 
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App],
+      imports: [App, MeuPrimeiro, MeuPrimeiro2, Cursos],
     }).compileComponents();
   });
 
