@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataBinding } from './data-binding/data-binding';
 
 @Component({
@@ -8,5 +8,5 @@ import { DataBinding } from './data-binding/data-binding';
   styleUrl: './app.css',
 })
 export class App {
-  title = 'Hello World!';
+  title = 'Curso Angular';
 }
